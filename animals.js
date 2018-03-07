@@ -1,6 +1,6 @@
 //begin - destructuring assignment
 makeSound({
-    weight: 23,
+    weight: 40,
     sound: 'woof'
 })
 
@@ -15,7 +15,7 @@ function addNumbers(a,b,c,d){
     console.log(a+b+c+d);    
 }
 
-var nums = [10,15,20,1];
+var nums = [10,15,30,1];
 addNumbers(...nums);
 
 //example 2
@@ -26,7 +26,7 @@ console.log(food);
 
 //begin - arrow functions and higer-order functions
 //functions are value
-var nums2 = [3,2,8,1,10];
+var nums2 = [3,20,8,1,10];
 let soma = (a,b,c,d,e) => {    
     return(a+b+c+d+e)
 }
